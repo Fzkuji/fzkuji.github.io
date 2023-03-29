@@ -14,7 +14,7 @@ profile_picture:
 </p>
 
 <p>
-  I am now excited to embark on my journey as a Ph.D. candidate at City University of Hong Kong, under the supervision of Professor <a href="https://zhaoxyai.github.io/">Zhao Xiangyu</a>.
+  I am now excited to embark on my journey as a Ph.D. candidate at City University of Hong Kong, under the supervision of Professor <a href="https://zhaoxyai.github.io/">Xiangyu Zhao</a>.
 </p>
 
 <p>
