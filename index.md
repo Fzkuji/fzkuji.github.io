@@ -10,11 +10,11 @@ profile_picture:
 </p>
 
 <p>
-  I completed my undergraduate studies at Xi'an Jiaotong University's School of Software Engineering, where I earned my Bachelor of Engineering degree. I was fortunate to be mentored by <a href="http://gr.xjtu.edu.cn/web/zhaojk">Professor Jiakun Zhao</a> during my time there. Following my undergraduate education, I pursued a Master of Science degree in Advanced Computer Science at the University of Sheffield. There, I had the pleasure of working under the guidance of <a href="https://www.sheffield.ac.uk/dcs/people/academic/anton-ragni">Dr. Anton Ragni</a>.
+  I completed my undergraduate studies at Xi'an Jiaotong University's School of Software Engineering, where I earned my Bachelor of Engineering degree. I was fortunate to be mentored by Professor <a href="http://gr.xjtu.edu.cn/web/zhaojk">Jiakun Zhao</a> during my time there. Following my undergraduate education, I pursued a Master of Science degree in Advanced Computer Science at the University of Sheffield. There, I had the pleasure of working under the guidance of Dr. <a href="https://www.sheffield.ac.uk/dcs/people/academic/anton-ragni">Anton Ragni</a>.
 </p>
 
 <p>
-  I am now excited to embark on my journey as a Ph.D. candidate at City University of Hong Kong, under the supervision of <a href="https://zhaoxyai.github.io/">Professor Zhao Xiangyu</a>.
+  I am now excited to embark on my journey as a Ph.D. candidate at City University of Hong Kong, under the supervision of Professor <a href="https://zhaoxyai.github.io/">Zhao Xiangyu</a>.
 </p>
 
 <p>

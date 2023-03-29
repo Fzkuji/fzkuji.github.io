@@ -20,21 +20,21 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
+      value: fzkuji@gmail.com
+      link: mailto:fzkuji@gmail.com
     - name: WeChat
-      value: YourWeChatUsername
+      value: FZKUJI
       link: "#"
   follow:
     - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
+      link: https://twitter.com/fzkuji
+      username: "Fzkuji"
     - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
+      link: https://www.facebook.com/zichuan.fu/
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/fzkuji/
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
+      link: https://github.com/FZKUJI
     - name: Dribbble
       link: https://dribbble.com/YourDribbbleUsername
     - name: RSS
