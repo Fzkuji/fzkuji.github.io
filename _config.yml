@@ -8,6 +8,7 @@ baseurl: "" # the subpath of the site
 url: "https://fzkuji.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
+openai-domain-verification: dv-DP6CfXPwdpwd3Zj3tbWrZAVn
 
 header:
   pages:
