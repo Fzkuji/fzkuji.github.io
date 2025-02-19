@@ -1,13 +1,19 @@
 ---
 permalink: /
-title: "Zichuan Fu's Homepage"
+title: "< Hello, AI! />"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Hello and welcome to my personal homepage! My name is Zichuan Fu, and I am thrilled to share my educational background and aspirations with you.
+
+I completed my undergraduate studies at Xi'an Jiaotong University's School of Software Engineering, where I earned my Bachelor of Engineering degree. I was fortunate to be mentored by Professor [Jiakun Zhao](http://gr.xjtu.edu.cn/web/zhaojk) during my time there. Following my undergraduate education, I pursued a Master of Science degree in Advanced Computer Science at the University of Sheffield. There, I had the pleasure of working under the guidance of Dr. [Anton Ragni](https://www.sheffield.ac.uk/dcs/people/academic/anton-ragni).
+
+I am now excited to embark on my journey as a Ph.D. candidate at City University of Hong Kong, under the supervision of Professor [Xiangyu Zhao](https://zhaoxyai.github.io/).
+
+As a passionate advocate for artificial general intelligence (AGI), I am eager to contribute my efforts to help bring this revolutionary technology to fruition. I firmly believe that AGI has the potential to reshape our world for the better, and I am committed to playing an active role in its development. Thank you for visiting my page and learning more about my background and aspirations.
 
 A data-driven personal website
 ======
