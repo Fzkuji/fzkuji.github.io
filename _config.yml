@@ -22,7 +22,7 @@ repository               : "Fzkuji/fzkuji.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile-pic.png"
+  avatar           : "/images/profile-pic.png" # URL of the avatar image
   name             : "Fu Zichuan"
   pronouns         : # "he/him"  
   bio              : "AI: TRANSFORMING LIFE, REVOLUTIONIZING THE WORLD"
