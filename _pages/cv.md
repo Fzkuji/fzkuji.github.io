@@ -11,35 +11,40 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Data Science, City University of Hong Kong, 2023 - Present
+* M.S. in Advanced Computer Science, University of Sheffield, 2021 - 2022
+* B.Eng in Software Engineering, Xi'an Jiaotong University, 2017 - 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* August 2024 - Present: Researcher
+  * Tencent Jarvis Research Center
+  * Duties includes: Develop model merging methods for multi-task learning and knowledge editing
+  * Supervisor: Dr. Xian Wu, Prof. Yefeng Zheng
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* July 2023 - April 2024: Researcher
+  * Huawei Noah's Ark Lab
+  * Duties included: Leverage LLMs for multi-domain CTR prediction
+  * Supervisor: Li Xiangyang
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages and Technologies
+  * Proficient in Java, Python, and C
+  * Web Development: Java EE, WeChat Mini Program, JavaScript
+* Machine Learning and AI
+  * PyTorch and deep learning frameworks
+  * Large Language Models (LLMs)
+  * Natural Language Processing
+  * Computer Vision
+  * Transformers and PEFT libraries
+* Project Management and Leadership
+  * Full development cycle experience
+  * Team Leadership & Organization
+  * Requirements analysis and design
+  * Student Union management experience
+
 
 Publications
 ======
@@ -61,4 +66,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Conference Reviewer: AAAI, KDD, ICDM, NeurIPS, WWW, RecSys, ACMMM
+* Journal Reviewer: TKDE, TKDD
