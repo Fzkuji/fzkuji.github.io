@@ -200,6 +200,11 @@ body:hover .visually-hidden button {
     color: #000;
   }
 
+  .fa-wechat,
+  .fa-wechat-square {
+      color: $wechat-color;
+  }
+
   .fa-bluesky,
   .fa-bluesky-square {
     color: $bluesky-color;

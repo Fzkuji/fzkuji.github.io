@@ -155,7 +155,15 @@
       {% endif %}
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+      {% endif %}
+      {% if author.wechat %}
+      <li class="qr-code-container">
+        <i class="fab fa-fw fa-wechat icon-pad-right" aria-hidden="true"></i>WeChat
+        <div class="qr-code">
+          <img src="/images/wechat-qr-code.png" alt="WeChat QR Code">
+        </div>
+      </li>
+      {% endif %}
     </ul>
   </div>
 </div>
