@@ -50,11 +50,11 @@ layout: default
         {% if page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller"><strong>Citation:</strong> {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller"><strong>Citation</strong> {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+          <p style="font-size: smaller"><strong>Citation:</strong> {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
         {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller"><strong>Citation</strong> {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller"><strong>Citation:</strong> {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation %}
-          <p style="font-size: smaller"><strong>Citation</strong> {{ page.citation }}</p>
+          <p style="font-size: smaller"><strong>Citation:</strong> {{ page.citation }}</p>
         {% elsif page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
