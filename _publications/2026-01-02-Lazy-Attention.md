@@ -1,7 +1,7 @@
 ---
 title: "Attention Needs to Focus: A Unified Perspective on Attention Allocation"
 collection: publications
-category: manuscripts
+category: arxiv
 permalink: /publication/2026-01-02-Lazy-Attention
 excerpt: 'A unified perspective tracing representational collapse and attention sink to improper attention allocation, introducing Lazy Attention with positional discrimination and Elastic-Softmax for focused attention.'
 date: 2026-01-02
