@@ -2,9 +2,9 @@
 title: "Ensemble-Hub — Tandem: Collaborative LLM–SLM Reasoning"
 collection: talks
 type: "Open-source project (code for Tandem, ACL 2026 Findings)"
-permalink: /talks/2025-07-01-ensemble-hub-tandem
+permalink: /talks/2026-04-14-ensemble-hub-tandem
 venue: "GitHub"
-date: 2025-07-01
+date: 2026-04-14
 location: "github.com/Fzkuji/Ensemble-Hub"
 link: "https://github.com/Fzkuji/Ensemble-Hub"
 excerpt: 'Reference implementation of Tandem (ACL 2026 Findings): a mentor–intern framework where an LLM emits compact GPRA reasoning insights to guide an efficient SLM, with cost-aware termination and progressive effort levels. ~40% cost reduction; +2.56% accuracy over a standalone 32B LLM at 59% of its compute on MATH.'
