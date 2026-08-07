@@ -34,11 +34,7 @@
 
     {%- comment -%} Band 1 — title + venue, full width {%- endcomment -%}
     <h2 class="archive__item-title" itemprop="headline">
-      {%- if post.link -%}
-        <a href="{{ post.link }}">{{ title | strip }}</a>
-      {%- else -%}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title | strip }}</a>
-      {%- endif -%}
+      {{- title | strip -}}
       {%- if post.oral %} <span class="archive__item-badge">Oral</span>{% endif -%}
     </h2>
 
@@ -72,21 +68,17 @@
         {% elsif post.excerpt and site.read_more == 'enabled' %}
           <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
         {% endif %}
+
+        {%- comment -%} Links sit under the description, beside the figure {%- endcomment -%}
+        {% if post.paperurl or post.codeurl or post.slidesurl %}
+          <p class="archive__item-links">
+            {% if post.paperurl %}<span class="archive__item-link"><span class="archive__item-link-label">Paper:</span> <a href="{{ post.paperurl }}">{{ post.paperlabel | default: post.paperurl }}</a></span>{% endif %}
+            {% if post.codeurl %}<span class="archive__item-link"><span class="archive__item-link-label">Code:</span> <a href="{{ post.codeurl }}">{{ post.codeurl | remove: 'https://github.com/' }}</a></span>{% endif %}
+            {% if post.slidesurl %}<span class="archive__item-link"><span class="archive__item-link-label">Slides:</span> <a href="{{ post.slidesurl }}">Download</a></span>{% endif %}
+          </p>
+        {% endif %}
       </div>
     </div>
-
-    {%- comment -%} Band 3 — labelled links, full width {%- endcomment -%}
-    {% if post.paperurl or post.codeurl or post.slidesurl %}
-      <p class="archive__item-links">
-        <span class="archive__item-links-left">
-          {% if post.paperurl %}<span class="archive__item-link"><span class="archive__item-link-label">Paper:</span> <a href="{{ post.paperurl }}">{{ post.paperlabel | default: post.paperurl }}</a></span>{% endif %}
-          {% if post.slidesurl %}<span class="archive__item-link"><span class="archive__item-link-label">Slides:</span> <a href="{{ post.slidesurl }}">Download</a></span>{% endif %}
-        </span>
-        {% if post.codeurl %}
-          <span class="archive__item-links-right"><span class="archive__item-link"><span class="archive__item-link-label">Code:</span> <a href="{{ post.codeurl }}">{{ post.codeurl | remove: 'https://github.com/' }}</a></span></span>
-        {% endif %}
-      </p>
-    {% endif %}
 
   </article>
 </div>

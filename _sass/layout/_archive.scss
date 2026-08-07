@@ -312,19 +312,15 @@
   font-size: $type-size-5;
 }
 
-/* Paper link at the left edge, code link at the right, so the row spans the
-   full column width instead of trailing off after a short DOI. */
+/* Under the description, beside the figure: one link per line so the label
+   and the value stay together on a narrow column. */
 .archive__item-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.5em 1.5em;
-  margin-top: 1em;
+  margin-top: 0.8em;
   font-size: $type-size-6;
 }
 
-.archive__item-link + .archive__item-link {
-  margin-left: 1.25em;
+.archive__item-link {
+  display: block;
 }
 
 /* Names what the link is, so a bare DOI or repo path isn't left unexplained. */
