@@ -35,7 +35,7 @@
     {%- comment -%} Band 1 — title + venue, full width {%- endcomment -%}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }}</a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
@@ -46,7 +46,7 @@
     {% endif %}
 
     {% if post.authors %}
-      <p class="archive__item-authors">{{ post.authors }}</p>
+      <p class="archive__item-authors">{{ post.authors | replace: 'Zichuan Fu', '<strong>Zichuan Fu</strong>' }}</p>
     {% endif %}
 
     {% if post.collection == 'teaching' %}
@@ -74,11 +74,17 @@
       </div>
     </div>
 
-    {%- comment -%} Band 3 — one link, full width {%- endcomment -%}
-    {% if post.paperurl %}
-      <p class="archive__item-citation"><a href="{{ post.paperurl }}">{{ post.paperlabel | default: post.paperurl }}</a>{% if post.slidesurl %} · <a href="{{ post.slidesurl }}">Slides</a>{% endif %}</p>
-    {% elsif post.slidesurl %}
-      <p class="archive__item-citation"><a href="{{ post.slidesurl }}">Slides</a></p>
+    {%- comment -%} Band 3 — links pushed to opposite ends of one full-width row {%- endcomment -%}
+    {% if post.paperurl or post.codeurl or post.slidesurl %}
+      <p class="archive__item-links">
+        <span class="archive__item-links-left">
+          {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.paperlabel | default: post.paperurl }}</a>{% endif %}
+          {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
+        </span>
+        {% if post.codeurl %}
+          <span class="archive__item-links-right"><a href="{{ post.codeurl }}">{{ post.codeurl | remove: 'https://github.com/' }}</a></span>
+        {% endif %}
+      </p>
     {% endif %}
 
   </article>

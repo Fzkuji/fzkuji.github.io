@@ -11,6 +11,7 @@ venue: 'ACL’25 (Main, Long Paper), Proceedings of the 63rd Annual Meeting of t
 authors: "Zichuan Fu, Xian Wu, Yejing Wang, Wanyu Wang, Shanshan Ye, Hongzhi Yin, Yi Chang, Yefeng Zheng, Xiangyu Zhao"
 paperurl: 'https://doi.org/10.18653/v1/2025.acl-long.1588'
 paperlabel: "10.18653/v1/2025.acl-long.1588"
+codeurl: 'https://github.com/Applied-Machine-Learning-Lab/Hi-Merging'
 oral: true
 ---
 

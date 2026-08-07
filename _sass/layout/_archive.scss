@@ -111,12 +111,6 @@
     transform: scale(1.02);
   }
 
-  /* The citation is long; full width keeps it off the narrow column beside
-     the figure, where it would run far past the image's bottom edge. */
-  .archive__item-citation {
-    margin-top: 1em;
-  }
-
   @include breakpoint($medium) {
     /* Only the middle band is two columns — the title, venue, and citation
        above and below it stay full width. */
@@ -305,13 +299,28 @@
 
 .archive__item-authors {
   margin: 0.15em 0 0.2em;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   color: var(--global-text-color-light);
 }
 
 .archive__item-venue {
   margin: 0 0 0.6em;
+  font-size: $type-size-5;
+}
+
+/* Paper link at the left edge, code link at the right, so the row spans the
+   full column width instead of trailing off after a short DOI. */
+.archive__item-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5em 1.5em;
+  margin-top: 1em;
   font-size: $type-size-6;
+}
+
+.archive__item-links-left a + a {
+  margin-left: 1em;
 }
 
 /* Small enough to sit inline after the venue without breaking the line's
