@@ -81,6 +81,11 @@
 
   .archive__item-title {
     text-decoration: underline;
+
+    /* the badge is a label, not part of the linked title text */
+    .archive__item-badge {
+      text-decoration: none;
+    }
   }
 }
 
@@ -323,17 +328,24 @@
   margin-left: 1em;
 }
 
-/* Small enough to sit inline after the venue without breaking the line's
-   rhythm; the accent colour is the theme's own link colour. */
+/* Sits at the end of the title, so it must not inherit the heading's size,
+   weight, or underline. A filled pill reads as a label rather than a word
+   that ran on from the title. */
 .archive__item-badge {
   display: inline-block;
-  margin-left: 0.4em;
-  padding: 0.05em 0.5em;
-  border: 1px solid var(--global-link-color);
+  margin-left: 0.5em;
+  padding: 0.12em 0.6em;
   border-radius: 999px;
-  font-size: $type-size-7;
-  font-weight: bold;
-  line-height: 1.5;
-  color: var(--global-link-color);
-  vertical-align: 1px;
+  background: var(--global-link-color);
+  color: #fff;
+  font-family: $sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.6;
+  text-decoration: none;
+  white-space: nowrap;
+  /* nudge up to sit against the title's cap height */
+  vertical-align: 0.22em;
 }
