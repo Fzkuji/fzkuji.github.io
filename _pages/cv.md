@@ -68,3 +68,7 @@ Service and leadership
 ======
 * Conference Reviewer: AAAI, KDD, ICDM, NeurIPS, WWW, RecSys, ACMMM
 * Journal Reviewer: TKDE, TKDD
+
+Awards
+======
+* Second Prize, Beijing College Students "Super Individual" (OPC) Entrepreneurship Competition, 2026 — team member. Organised by the Beijing Municipal Education Commission and the Beijing College Students Employment and Entrepreneurship Guidance Center.
