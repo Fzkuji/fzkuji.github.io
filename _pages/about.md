@@ -9,6 +9,30 @@ redirect_from:
 
 Hello and welcome to my personal homepage! My name is Zichuan Fu, and I am thrilled to share my educational background and aspirations with you.
 
+<div class="edu-row">
+  <div class="edu-card">
+    <img src="/images/education/cityu.jpg" alt="City University of Hong Kong">
+    <div class="edu-card__text">
+      <strong>City University of Hong Kong</strong>
+      <span>Ph.D. in Data Science · 2023 – present</span>
+    </div>
+  </div>
+  <div class="edu-card">
+    <img src="/images/education/sheffield.jpg" alt="University of Sheffield">
+    <div class="edu-card__text">
+      <strong>University of Sheffield</strong>
+      <span>M.Sc. Advanced Computer Science · 2021 – 2022</span>
+    </div>
+  </div>
+  <div class="edu-card">
+    <img src="/images/education/xjtu.jpg" alt="Xi'an Jiaotong University">
+    <div class="edu-card__text">
+      <strong>Xi'an Jiaotong University</strong>
+      <span>B.Eng. Software Engineering · 2017 – 2021</span>
+    </div>
+  </div>
+</div>
+
 I completed my undergraduate studies at Xi'an Jiaotong University's School of Software Engineering, where I earned my Bachelor of Engineering degree. I was fortunate to be mentored by Professor [Jiakun Zhao](http://gr.xjtu.edu.cn/web/zhaojk) during my time there. Following my undergraduate education, I pursued a Master of Science degree in Advanced Computer Science at the University of Sheffield. There, I had the pleasure of working under the guidance of Dr. [Anton Ragni](https://www.sheffield.ac.uk/dcs/people/academic/anton-ragni).
 
 I am now excited to embark on my journey as a Ph.D. candidate at City University of Hong Kong, under the supervision of Professor [Xiangyu Zhao](https://zhaoxyai.github.io/).

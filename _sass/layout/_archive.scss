@@ -96,15 +96,12 @@
     margin-bottom: 0.75em;
     border-radius: $border-radius;
     overflow: hidden;
-    /* An <a> wrapping only an image should not inherit link underlines. */
     text-decoration: none;
     border-bottom: 0;
 
     img {
       display: block;
       width: 100%;
-      /* Figures vary in aspect ratio; crop to a consistent band so a column of
-         entries reads as a list rather than a ragged stack. */
       height: auto;
       transition: transform 0.25s ease;
     }
@@ -114,23 +111,30 @@
     transform: scale(1.02);
   }
 
+  /* The citation is long; full width keeps it off the narrow column beside
+     the figure, where it would run far past the image's bottom edge. */
+  .archive__item-citation {
+    margin-top: 1em;
+  }
+
   @include breakpoint($medium) {
-    display: flex;
-    /* Centred against the whole text block: entries vary a lot in citation
-       length, and a top-aligned figure leaves a growing gap beneath it as the
-       text runs on. */
-    align-items: center;
-    gap: 1.5em;
+    /* Only the middle band is two columns — the title, venue, and citation
+       above and below it stay full width. */
+    .archive__item-main {
+      display: flex;
+      align-items: center;
+      gap: 1.5em;
+    }
 
     .archive__item-figure {
-      flex: 0 0 40%;
-      max-width: 40%;
+      flex: 0 0 46%;
+      max-width: 46%;
       margin-bottom: 0;
     }
 
     .archive__item-body {
       flex: 1 1 auto;
-      min-width: 0; /* let long citations wrap instead of forcing overflow */
+      min-width: 0;
     }
   }
 }
