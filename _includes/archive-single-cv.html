@@ -8,8 +8,7 @@
 <li class="cv-entry">
   <span class="cv-entry__num">[{{ include.number | default: forloop.index }}]</span>
   <div class="cv-entry__body">
-    <span class="cv-entry__title">{{ post.title }}</span>
-    {%- if post.oral %} <span class="archive__item-badge">Oral</span>{% endif -%}
+    <span class="cv-entry__title">{{ post.title }}{% if post.oral %} <span class="archive__item-badge">Oral</span>{% endif %}</span>
     {% if post.authors %}
       <span class="cv-entry__authors">{{ post.authors | replace: 'Zichuan Fu', '<strong>Zichuan Fu</strong>' }}</span>
     {% endif %}
