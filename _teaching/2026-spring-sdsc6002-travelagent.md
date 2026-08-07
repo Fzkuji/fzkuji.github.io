@@ -5,6 +5,8 @@ type: "MSc capstone research project mentoring"
 permalink: /teaching/2026-spring-sdsc6002-travelagent
 venue: "City University of Hong Kong, Department of Data Science"
 date: 2026-01-01
+header:
+  teaser: "sdsc6002-2026-award.jpg"
 location: "Hong Kong, China"
 excerpt: 'An MSDS capstone team building **TravelAgent**, an LLM-based travel planning agent. The team received the **MSDS Outstanding Performance Award 2026** from the Department of Data Science, CityU.'
 ---

@@ -5,6 +5,8 @@ category: conferences
 permalink: /publication/2025-03-16-Hi-Merging
 excerpt: 'Hi-Merging: a training-free method that merges specialized LLMs into a unified multi-task model using hierarchical pruning and scaling, preserving individual strengths while minimizing parameter conflicts across languages and tasks.'
 date: 2025-03-16
+header:
+  teaser: "publications/hi-merging.jpg"
 venue: 'ACL’25, Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics'
 paperurl: ''
 citation: >-

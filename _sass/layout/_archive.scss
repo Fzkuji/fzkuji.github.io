@@ -84,6 +84,57 @@
   }
 }
 
+/*
+   Entry with a figure — image left, text right
+   ========================================================================== */
+
+/* Stacked by default so the figure stays legible on a phone; the two-column
+   arrangement starts at $medium, where there is room for both. */
+.archive__item--with-figure {
+  .archive__item-figure {
+    display: block;
+    margin-bottom: 0.75em;
+    border-radius: $border-radius;
+    overflow: hidden;
+    /* An <a> wrapping only an image should not inherit link underlines. */
+    text-decoration: none;
+    border-bottom: 0;
+
+    img {
+      display: block;
+      width: 100%;
+      /* Figures vary in aspect ratio; crop to a consistent band so a column of
+         entries reads as a list rather than a ragged stack. */
+      height: auto;
+      transition: transform 0.25s ease;
+    }
+  }
+
+  &:hover .archive__item-figure img {
+    transform: scale(1.02);
+  }
+
+  @include breakpoint($medium) {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5em;
+
+    .archive__item-figure {
+      flex: 0 0 34%;
+      max-width: 34%;
+      margin-bottom: 0;
+      /* Nudge down so the image's top edge lines up with the title's cap
+         height rather than its line box. */
+      margin-top: 0.35em;
+    }
+
+    .archive__item-body {
+      flex: 1 1 auto;
+      min-width: 0; /* let long citations wrap instead of forcing overflow */
+    }
+  }
+}
+
 
 /*
    List view

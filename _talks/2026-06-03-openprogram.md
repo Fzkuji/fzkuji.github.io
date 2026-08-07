@@ -5,6 +5,8 @@ type: "Open-source project"
 permalink: /talks/2026-06-03-openprogram
 venue: "GitHub"
 date: 2026-06-03
+header:
+  teaser: "talks/openprogram.jpg"
 location: "github.com/Fzkuji/OpenProgram"
 link: "https://github.com/Fzkuji/OpenProgram"
 excerpt: 'Agentic Programming framework: Python drives the deterministic control flow, the LLM reasons only when asked. Automatic context threading over a DAG, terminal + web UIs with live execution visualization, self-evolving workflows, and any LLM provider (Claude / GPT / Gemini). Runs natively on macOS, Linux, and Windows.'

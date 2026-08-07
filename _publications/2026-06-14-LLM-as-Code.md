@@ -5,6 +5,8 @@ category: conferences
 permalink: /publication/2026-06-14-LLM-as-Code
 excerpt: 'Agentic Programming inverts the usual agent design: the program governs all control flow and the LLM is an adaptive component invoked only where reasoning is needed, so token explosion and control-flow hallucination become architecturally impossible rather than prompt-tuned away.'
 date: 2026-06-14
+header:
+  teaser: "publications/llm-as-code.jpg"
 venue: 'KDD’26 Workshop on Agentic Software Engineering (AgenticSE)'
 paperurl: 'https://arxiv.org/abs/2606.15874'
 citation: 'Junjia Qi, Zichuan Fu, Jingtong Gao, Wenlin Zhang, Hanyu Yan, Xian Wu, and Xiangyu Zhao. 2026. LLM-as-Code: Agentic Programming for Agent Harness. In KDD 2026 Workshop on Agentic Software Engineering (AgenticSE). <a href="https://arxiv.org/abs/2606.15874">arXiv:2606.15874</a>'

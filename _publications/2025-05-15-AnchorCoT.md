@@ -5,6 +5,8 @@ category: conferences
 permalink: /publication/2025-05-15-AnchorCoT
 excerpt: 'AnchorCoT predicts key entities as "anchors" to guide multi-hop reasoning and uses a ranking algorithm to ensure logical answer sequences, improving LLM performance on multi-hop QA.'
 date: 2025-05-15
+header:
+  teaser: "publications/anchorcot.jpg"
 venue: 'ACL’25 Findings, Findings of the Association for Computational Linguistics'
 paperurl: 'https://doi.org/10.18653/v1/2025.findings-acl.801'
 citation: 'Tianshi Ming, Xian Wu, Yingying Zhang, Zichuan Fu, and Dawei Cheng. 2025. AnchorCoT: Anchors Pave the Way for Multi-hop Reasoning. In Findings of the Association for Computational Linguistics: ACL 2025, pages 15522-15536. <a href="https://doi.org/10.18653/v1/2025.findings-acl.801">10.18653/v1/2025.findings-acl.801</a>'
