@@ -305,7 +305,6 @@
 .archive__item-authors {
   margin: 0.15em 0 0.2em;
   font-size: $type-size-5;
-  color: var(--global-text-color-light);
 }
 
 .archive__item-venue {
@@ -324,8 +323,13 @@
   font-size: $type-size-6;
 }
 
-.archive__item-links-left a + a {
-  margin-left: 1em;
+.archive__item-link + .archive__item-link {
+  margin-left: 1.25em;
+}
+
+/* Names what the link is, so a bare DOI or repo path isn't left unexplained. */
+.archive__item-link-label {
+  font-weight: bold;
 }
 
 /* Sits at the end of the title, so it must not inherit the heading's size,
