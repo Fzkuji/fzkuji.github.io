@@ -1,0 +1,15 @@
+---
+title: "LLM-as-Code: Agentic Programming for Agent Harness"
+collection: publications
+category: conferences
+permalink: /publication/2026-06-14-LLM-as-Code
+excerpt: 'Agentic Programming inverts the usual agent design: the program governs all control flow and the LLM is an adaptive component invoked only where reasoning is needed, so token explosion and control-flow hallucination become architecturally impossible rather than prompt-tuned away.'
+date: 2026-06-14
+venue: 'KDD’26 Workshop on Agentic Software Engineering (AgenticSE)'
+paperurl: 'https://arxiv.org/abs/2606.15874'
+citation: 'Junjia Qi, Zichuan Fu, Jingtong Gao, Wenlin Zhang, Hanyu Yan, Xian Wu, and Xiangyu Zhao. 2026. LLM-as-Code: Agentic Programming for Agent Harness. In KDD 2026 Workshop on Agentic Software Engineering (AgenticSE). <a href="https://arxiv.org/abs/2606.15874">arXiv:2606.15874</a>'
+---
+
+Every major LLM agent framework gives the LLM the role of orchestrator; the model decides what to do next, when to call tools, and when to stop. We argue that token explosion, control-flow hallucination, and unreliable completion are not implementation bugs but architectural consequences of assigning the deterministic work of looping, branching, and sequencing to a probabilistic system. A better prompt or a stronger model cannot guarantee the reliability of the LLM agent. We therefore propose Agentic Programming, in which the program governs all control flow, and the LLM is itself part of it, an adaptive component we call LLM-as-Code and invoke only where a task calls for reasoning or generation. Within each call the model keeps full flexibility, but it cannot alter the program's execution path. With control in the program, the LLM's context is built from the execution history's call tree rather than an ever-growing transcript, so each call sees only what its scope declares.
+
+The reference implementation is [OpenProgram](https://github.com/Fzkuji/OpenProgram), an open-source agent harness in which a `@agentic_function` turns an ordinary Python function into an agent: the docstring becomes the prompt, type annotations become the tool schema, and every LLM call is a retryable node on a shared execution DAG.
