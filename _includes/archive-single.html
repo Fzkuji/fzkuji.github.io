@@ -34,11 +34,12 @@
 
     {%- comment -%} Band 1 — title + venue, full width {%- endcomment -%}
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}{% if post.oral %}<span class="archive__item-badge">Oral</span>{% endif %}
+      {%- if post.link -%}
+        <a href="{{ post.link }}">{{ title | strip }}</a>
+      {%- else -%}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title | strip }}</a>
+      {%- endif -%}
+      {%- if post.oral %} <span class="archive__item-badge">Oral</span>{% endif -%}
     </h2>
 
     {% if post.read_time %}
