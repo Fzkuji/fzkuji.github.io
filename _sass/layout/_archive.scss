@@ -116,16 +116,16 @@
 
   @include breakpoint($medium) {
     display: flex;
-    align-items: flex-start;
+    /* Centred against the whole text block: entries vary a lot in citation
+       length, and a top-aligned figure leaves a growing gap beneath it as the
+       text runs on. */
+    align-items: center;
     gap: 1.5em;
 
     .archive__item-figure {
       flex: 0 0 40%;
       max-width: 40%;
       margin-bottom: 0;
-      /* Nudge down so the image's top edge lines up with the title's cap
-         height rather than its line box. */
-      margin-top: 0.35em;
     }
 
     .archive__item-body {
