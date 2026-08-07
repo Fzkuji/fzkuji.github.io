@@ -9,6 +9,8 @@ collection: portfolio
 The reference implementation of the *Agentic Programming* paradigm introduced in
 [LLM-as-Code](/publication/2026-06-14-LLM-as-Code) (KDD'26 AgenticSE Workshop).
 
+![One decorator turns a Python function into an agent: the docstring becomes the system prompt, type annotations become the tool schema, runtime.exec() calls become retryable DAG nodes, and plain if/for/return stays deterministic](/images/portfolio/openprogram-agentic-function.jpg)
+
 Most agent frameworks make the LLM the orchestrator. OpenProgram inverts that: the
 Python program governs control flow, and the model is invoked only where a task
 genuinely calls for judgement.
@@ -34,6 +36,9 @@ Four mechanisms sit underneath:
 - **DAG Context** — every user turn, LLM call, and function call is one node on a flat
   DAG. Context is an addressable node rather than a per-agent buffer, so forking,
   spawning sub-agents, and cross-session messaging are all "select a different node set".
+
+  ![Every user, LLM, and function call is one node on a single flat DAG, tied by caller and predecessor edges; a branch can spawn a sub-agent on its own lane and attach the result back](/images/portfolio/openprogram-dag-context.jpg)
+
 - **Agentic Workflow** — agents write and hot-load their own `@agentic_function`s with
   ordinary file edits; no `create()` / `fix()` machinery.
 - **Event Infrastructure** — one process-wide bus that the agent loop, auth, context,

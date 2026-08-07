@@ -8,6 +8,8 @@ collection: portfolio
 
 **OSWorld Multi-Apps 79.8%** (72.6/91) · **OSWorld Chrome 93.5%** (43/46)
 
+![GUI Agent Harness](/images/portfolio/gui-agent-harness-banner.jpg)
+
 An autonomous GUI agent: give it a task and it drives real desktop applications and
 OSWorld VMs by vision alone — no accessibility tree, no application APIs.
 
