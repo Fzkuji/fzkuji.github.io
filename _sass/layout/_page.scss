@@ -460,3 +460,52 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/*
+   CV listing — numbered entries with a hanging indent, so the author and
+   venue lines align under the title rather than under the number.
+   ========================================================================== */
+
+.cv-subhead {
+  margin: 1.2em 0 0.4em;
+  font-size: $type-size-5;
+  color: var(--global-text-color-light);
+}
+
+.page__content .cv-list {
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+}
+
+.cv-entry {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 0.85em;
+  font-size: $type-size-6;
+  line-height: 1.45;
+}
+
+.cv-entry__num {
+  flex: 0 0 auto;
+  color: var(--global-text-color-light);
+}
+
+.cv-entry__body {
+  min-width: 0;
+}
+
+/* Each part on its own line: title, then authors, then venue. */
+.cv-entry__title,
+.cv-entry__authors,
+.cv-entry__venue {
+  display: block;
+}
+
+.cv-entry__title {
+  font-weight: bold;
+}
+
+.cv-entry__venue {
+  color: var(--global-text-color-light);
+}

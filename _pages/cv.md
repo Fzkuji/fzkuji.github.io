@@ -48,16 +48,24 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+{% for category in site.publication_category %}
+  {% assign posts = site.publications | where: "category", category[0] | sort: "date" | reverse %}
+  {% if posts.size > 0 %}
+<h3 class="cv-subhead">{{ category[1].title }}</h3>
+<ul class="cv-list">
+  {% for post in posts %}
+    {% include archive-single-cv.html number=forloop.index %}
+  {% endfor %}
+</ul>
+  {% endif %}
+{% endfor %}
+
 Mentorship
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+<ul class="cv-list">{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
 Service
 ======
 * Conference Reviewer: AAAI, KDD, ICDM, NeurIPS, WWW, RecSys, ACMMM
