@@ -298,3 +298,33 @@
     }
   }
 }
+
+/*
+   Publication entry — authors, venue, and the Oral badge
+   ========================================================================== */
+
+.archive__item-authors {
+  margin: 0.15em 0 0.2em;
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+}
+
+.archive__item-venue {
+  margin: 0 0 0.6em;
+  font-size: $type-size-6;
+}
+
+/* Small enough to sit inline after the venue without breaking the line's
+   rhythm; the accent colour is the theme's own link colour. */
+.archive__item-badge {
+  display: inline-block;
+  margin-left: 0.4em;
+  padding: 0.05em 0.5em;
+  border: 1px solid var(--global-link-color);
+  border-radius: 999px;
+  font-size: $type-size-7;
+  font-weight: bold;
+  line-height: 1.5;
+  color: var(--global-link-color);
+  vertical-align: 1px;
+}

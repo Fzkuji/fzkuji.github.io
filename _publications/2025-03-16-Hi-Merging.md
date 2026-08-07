@@ -7,10 +7,11 @@ excerpt: 'Hi-Merging: a training-free method that merges specialized LLMs into a
 date: 2025-03-16
 header:
   teaser: "publications/hi-merging.jpg"
-venue: 'ACL’25, Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics'
-paperurl: ''
-citation: >-
-  
+venue: 'ACL’25 (Main, Long Paper), Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics'
+authors: "Zichuan Fu, Xian Wu, Yejing Wang, Wanyu Wang, Shanshan Ye, Hongzhi Yin, Yi Chang, Yefeng Zheng, Xiangyu Zhao"
+paperurl: 'https://doi.org/10.18653/v1/2025.acl-long.1588'
+paperlabel: "10.18653/v1/2025.acl-long.1588"
+oral: true
 ---
 
 Large Language Models (LLMs) have demonstrated exceptional capabilities across diverse natural language processing (NLP) tasks.
