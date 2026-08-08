@@ -76,6 +76,7 @@ Awards and honors
 * Second Prize, Beijing College Students "Super Individual" (OPC) Entrepreneurship Competition, 2026 — team member. Organised by the Beijing Municipal Education Commission and the Beijing College Students Employment and Entrepreneurship Guidance Center.
 * Led a master's student research team to the MSDS Outstanding Performance Award, City University of Hong Kong, 2026
 * Tencent Rhino-Bird Outstanding Project, 2023 — ranked 4th out of 26
+* Outstanding Dissertation (Top 10%), University of Sheffield, 2022
 * First-Class Honours, University of Sheffield, 2022
 * Excellent Award, "Tengfei Cup" Innovation and Entrepreneurship Competition, 2019
 * Wang Shishao Scholarship, Xi'an Jiaotong University, 2020
