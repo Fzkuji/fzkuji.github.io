@@ -1,10 +1,10 @@
 ---
-title: "OpenProgram — Open-Source Agent Harness"
-excerpt: "The reference implementation of Agentic Programming: write an agent as an ordinary Python function, where the docstring is the prompt and every LLM call is a node on a shared execution DAG.<br/><a href='https://github.com/Fzkuji/OpenProgram'>github.com/Fzkuji/OpenProgram</a>"
+title: "OpenProgram — Self-Programming AI Agent Framework"
+excerpt: "A self-programming AI agent framework where agents create, execute, and refine programs to complete complex work.<br/><a href='https://openprogram.io/'>openprogram.io</a> · <a href='https://github.com/Fzkuji/OpenProgram'>GitHub</a>"
 collection: portfolio
 ---
 
-**[github.com/Fzkuji/OpenProgram](https://github.com/Fzkuji/OpenProgram)** · AGPL-3.0 · Python 3.11+ · macOS / Linux / Windows
+**[openprogram.io](https://openprogram.io/)** · [GitHub](https://github.com/Fzkuji/OpenProgram) · AGPL-3.0 · macOS / Linux / Windows
 
 The reference implementation of the *Agentic Programming* paradigm introduced in
 [LLM-as-Code](/publication/2026-06-14-LLM-as-Code) (KDD'26 AgenticSE Workshop).
