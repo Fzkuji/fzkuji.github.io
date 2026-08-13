@@ -52,7 +52,8 @@ That line of work runs through three connected threads:
 - **Agentic Programming** — putting control flow back in the program and invoking the
   model only where a task calls for judgement
   ([LLM-as-Code](/publication/2026-06-14-LLM-as-Code), KDD'26 AgenticSE Workshop;
-  implemented in [OpenProgram](/portfolio/1-openprogram)).
+  implemented in [OpenProgram](https://openprogram.io/), with a
+  [project page](/portfolio/1-openprogram)).
 - **Grounded interaction** — letting agents act in real interfaces through active visual
   observation rather than one-shot prediction
   ([GUI-Lens](/publication/2026-08-04-GUI-Lens); [GUI-Agent-Harness](/portfolio/2-gui-agent-harness),
@@ -64,4 +65,3 @@ That line of work runs through three connected threads:
 Alongside these I work on model merging and knowledge editing, temporal and multi-hop
 reasoning, and LLMs for recommendation. Code for most projects is on
 [GitHub](https://github.com/Fzkuji).
-
